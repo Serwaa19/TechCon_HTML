@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About TechCon 2024</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Assuming a shared CSS file for consistency -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>About TechCon 2024</h1>
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="schedule.html">Schedule</a></li>
                 <li><a href="register.html">Register</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -22,39 +22,88 @@
     <main>
         <article id="history">
             <h2>History of TechCon</h2>
-            <p>TechCon began in 2010 as a small gathering of tech enthusiasts in Silicon Valley, aiming to discuss emerging technologies. Over the years, it has evolved into a premier global conference, expanding its focus to include artificial intelligence, blockchain, cybersecurity, and sustainable tech. What started with 200 attendees has now grown to over 10,000 participants annually, featuring keynote speeches, workshops, and networking events that shape the future of technology.</p>
-            <img src="images/history1.jpg" alt="Group photo from the first TechCon event in 2010" width="400" height="300">
-            <img src="images/history2.jpg" alt="Modern TechCon venue with attendees and speakers" width="400" height="300">
+            <div class="content-wrapper">
+                <img src="images/techcon-history.jpg" alt="TechCon conference hall from the early years showing attendees and stage setup" class="content-image">
+                <div class="text-content">
+                    <p>TechCon was founded in 2010 with a vision to bring together technology enthusiasts, innovators, and industry leaders from around the world. What started as a small gathering of 200 developers in San Francisco has evolved into one of the premier technology conferences, attracting over 10,000 attendees annually.</p>
+                    <p>Over the years, TechCon has expanded its reach, hosting events in major tech hubs including New York, London, Tokyo, and Berlin. Each year, we've pushed the boundaries of what's possible, featuring cutting-edge technologies, groundbreaking research, and inspiring talks that have shaped the tech industry.</p>
+                    <p>In 2020, TechCon successfully transitioned to a hybrid format, combining in-person experiences with virtual accessibility, making our content available to a global audience. This innovation has allowed us to reach over 50,000 virtual attendees while maintaining the intimate, collaborative atmosphere that makes TechCon special.</p>
+                </div>
+            </div>
+            <img src="images/techcon-evolution.jpg" alt="Timeline showing the growth of TechCon from 2010 to 2024 with key milestones" class="timeline-image">
         </article>
 
         <article id="mission">
             <h2>Our Mission</h2>
-            <p>At TechCon, our mission is to inspire innovation, foster collaboration, and drive positive change in the tech industry. We believe in bridging the gap between cutting-edge research and real-world applications, empowering attendees to explore new ideas, build connections, and contribute to a more inclusive and sustainable technological landscape. Through diverse panels, hands-on demos, and thought-provoking discussions, we aim to equip the next generation of tech leaders with the tools and insights needed to tackle global challenges.</p>
-            <img src="images/mission-icon.png" alt="Icon representing innovation and collaboration" width="200" height="200">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <p>At TechCon, our mission is to foster innovation, inspire creativity, and build connections that drive the future of technology. We believe that the best solutions emerge when diverse minds come together to share knowledge, challenge assumptions, and collaborate on solving the world's most pressing challenges.</p>
+                    <h3>Core Principles</h3>
+                    <ul>
+                        <li><strong>Innovation First:</strong> We showcase the latest breakthroughs and emerging technologies that are reshaping industries.</li>
+                        <li><strong>Inclusive Community:</strong> We create an environment where everyone, regardless of background or experience level, can learn, grow, and contribute.</li>
+                        <li><strong>Knowledge Sharing:</strong> We believe in the power of open dialogue and the free exchange of ideas to accelerate progress.</li>
+                        <li><strong>Sustainable Future:</strong> We highlight technologies and practices that promote environmental responsibility and social good.</li>
+                        <li><strong>Global Impact:</strong> We connect local innovations with global challenges, fostering solutions that benefit communities worldwide.</li>
+                    </ul>
+                </div>
+                <img src="images/mission-icon.jpg" alt="Illustration representing innovation, collaboration, and technology advancement" class="content-image">
+            </div>
         </article>
 
         <article id="past-speakers">
             <h2>Notable Past Speakers</h2>
-            <section>
-                <h3>Elon Musk</h3>
-                <img src="images/elon-musk.jpg" alt="Photo of Elon Musk, CEO of Tesla and SpaceX" width="200" height="250">
-                <p>Elon Musk, CEO of Tesla and SpaceX, has spoken at TechCon multiple times, sharing insights on electric vehicles, space exploration, and sustainable energy. His contributions have revolutionized transportation and inspired advancements in renewable tech.</p>
-            </section>
-            <section>
-                <h3>Satya Nadella</h3>
-                <img src="images/satya-nadella.jpg" alt="Photo of Satya Nadella, CEO of Microsoft" width="200" height="250">
-                <p>Satya Nadella, CEO of Microsoft, delivered a keynote on cloud computing and AI ethics in 2022. His leadership has driven Microsoft's growth in cloud services and AI, emphasizing responsible innovation in the tech industry.</p>
-            </section>
-            <section>
-                <h3>Reshma Saujani</h3>
-                <img src="images/reshma-saujani.jpg" alt="Photo of Reshma Saujani, founder of Girls Who Code" width="200" height="250">
-                <p>Reshma Saujani, founder of Girls Who Code, spoke about closing the gender gap in tech in 2023. Her work has empowered thousands of young women to pursue careers in STEM, promoting diversity and inclusion.</p>
+            <p class="intro-text">TechCon has been honored to host some of the most influential figures in technology. Here are just a few of the remarkable speakers who have graced our stages:</p>
+            
+            <section class="speaker-grid">
+                <div class="speaker-card">
+                    <img src="images/speaker-sarah-chen.jpg" alt="Dr. Sarah Chen, AI researcher and former Google DeepMind scientist" class="speaker-photo">
+                    <h3>Dr. Sarah Chen</h3>
+                    <p class="speaker-title">AI Researcher & Former Google DeepMind Scientist</p>
+                    <p class="speaker-bio">Dr. Chen delivered a groundbreaking keynote at TechCon 2022 on "The Future of Ethical AI." Her research in machine learning ethics has influenced policy decisions worldwide. She is the author of "Responsible AI: A Framework for the Future" and has been recognized with the ACM Grace Hopper Award for her contributions to computer science.</p>
+                </div>
+
+                <div class="speaker-card">
+                    <img src="images/speaker-marcus-rodriguez.jpg" alt="Marcus Rodriguez, founder of CloudScale Technologies and cloud computing pioneer" class="speaker-photo">
+                    <h3>Marcus Rodriguez</h3>
+                    <p class="speaker-title">Founder of CloudScale Technologies</p>
+                    <p class="speaker-bio">A cloud computing pioneer, Rodriguez spoke at TechCon 2021 about "Scaling Infrastructure for the Next Decade." His company, CloudScale Technologies, has revolutionized how enterprises manage distributed systems. With over 20 years in the industry, he's been instrumental in making cloud infrastructure accessible to startups and enterprises alike.</p>
+                </div>
+
+                <div class="speaker-card">
+                    <img src="images/speaker-priya-patel.jpg" alt="Priya Patel, cybersecurity expert and author of 'Digital Defense Strategies'" class="speaker-photo">
+                    <h3>Priya Patel</h3>
+                    <p class="speaker-title">Cybersecurity Expert & Author</p>
+                    <p class="speaker-bio">Patel's TechCon 2023 presentation on "Next-Generation Cybersecurity" was a highlight of the conference. As the author of "Digital Defense Strategies" and a former security architect at major tech companies, she has helped organizations protect against evolving cyber threats. Her work has been featured in leading security publications and has shaped industry best practices.</p>
+                </div>
+
+                <div class="speaker-card">
+                    <img src="images/speaker-james-kim.jpg" alt="James Kim, blockchain innovator and creator of the SecureChain protocol" class="speaker-photo">
+                    <h3>James Kim</h3>
+                    <p class="speaker-title">Blockchain Innovator</p>
+                    <p class="speaker-bio">Kim presented at TechCon 2020 on "Blockchain Beyond Cryptocurrency," introducing his revolutionary SecureChain protocol. His work has enabled secure, transparent transactions across multiple industries, from supply chain management to digital identity verification. He's been named one of Forbes' "30 Under 30" in Technology.</p>
+                </div>
+
+                <div class="speaker-card">
+                    <img src="images/speaker-emily-watson.jpg" alt="Dr. Emily Watson, quantum computing researcher at MIT" class="speaker-photo">
+                    <h3>Dr. Emily Watson</h3>
+                    <p class="speaker-title">Quantum Computing Researcher at MIT</p>
+                    <p class="speaker-bio">Dr. Watson's TechCon 2022 talk on "Quantum Computing: From Theory to Reality" captivated audiences. Her research at MIT has advanced quantum error correction and brought us closer to practical quantum computing applications. She holds multiple patents and has published over 50 papers in top-tier journals.</p>
+                </div>
+
+                <div class="speaker-card">
+                    <img src="images/speaker-david-nguyen.jpg" alt="David Nguyen, open-source advocate and creator of DevTools framework" class="speaker-photo">
+                    <h3>David Nguyen</h3>
+                    <p class="speaker-title">Open-Source Advocate & Creator of DevTools</p>
+                    <p class="speaker-bio">Nguyen's TechCon 2021 presentation showcased his DevTools framework, which has been adopted by millions of developers worldwide. A passionate advocate for open-source software, he has contributed to over 100 projects and believes in making powerful development tools accessible to everyone. His framework has been downloaded over 50 million times.</p>
+                </div>
             </section>
         </article>
     </main>
 
     <footer>
-        <p>&copy; 2024 TechCon. All rights reserved.</p>
+        <p>&copy; 2024 TechCon Conference. All rights reserved.</p>
+        <p>For inquiries, please contact us at <a href="mailto:info@techcon2024.com">info@techcon2024.com</a></p>
     </footer>
 </body>
 </html>
